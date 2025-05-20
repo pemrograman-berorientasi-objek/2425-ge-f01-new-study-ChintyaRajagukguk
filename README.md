@@ -5,7 +5,7 @@ Pada tugas ini anda diminta untuk mengembangkan sebuah solusi yang menyimulasika
 Untuk mensimplifikasi, sebuah mata kuliah terdiri atas beberapa atribut, yakni `kode` unik, `nama` mata kuliah, `semester` pelaksanaan, serta bobot `kredit`. Sementara seorang mahasiswa dideskripsikan dengan atribut `nim`, `nama`, dan `prodi`.
 
 Solusi dikembangkan dalam struktur Maven *project* dan seluruh data disimpan dalam basis data H2. Berikut adalah beberapa ketentuan umum dari *project*:
-1. Lokasi basis data pada direktori `./db`).
+1. Lokasi basis data pada direktori `./db`.
 2. Lokasi *source code* pada direktori `./src/main/java/pbo`.
 3. *Entry point* solusi `./src/main/java/pbo/App.java`.
 4. *Persistence configuration* `./src/main/resources/META-INF/persistence.xml`.
@@ -18,7 +18,8 @@ Tugas pertama anda adalah merancang basis data berdasarkan deskripsi studi kasus
 
 ## Task 2. Entity Class Definition
 
-Tugas kedua, terjemahkan desain basis data yang sudah anda hasilkan ke dalam *entity classes*. Dalam mengembangkan *entity classes*, perhatikan hal-hal berikut:
+Tugas kedua, terjemahkan desain basis data yang sudah anda hasilkan ke dalam *entit
+y classes*. Dalam mengembangkan *entity classes*, perhatikan hal-hal berikut:
 1. Tipe data yang digunakan; dan
 2. *Persistence configuration*.
 
